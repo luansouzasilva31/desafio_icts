@@ -57,6 +57,7 @@ Após essas redes, é adicionada uma parte densa para fazer as classificações 
 
 ## resultados
 Binary_classification: 98,041% de accuracy (base de teste)
+
 Categorical_classification: 89,315% de accuracy (base de Teste)
 
 ### Para mais detalhes, verifique o código. Cada etapa realizada está devidamente comentada.
