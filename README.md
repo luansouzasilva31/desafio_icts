@@ -38,11 +38,11 @@ Implementação referente ao desafio proposto em "desafio_dl.pdf".
  Cada diretório possui a base de dados original, para que os trabalhos possam ser baixados isoladamente, de acordo com o interesse da pessoa.
 
  Tomando como exemplo a pasta binary_classification:
-    todos os scripts estão na pasta /pyscripts
-    todos os pesos resultantes do treinamento da rede estão na pasta /weights
-    toda a base de dados estã em /cats_and_dogs_dataset
-        /annotations contém os metadados do dataset (arquivos xml)
-        /images/images contém o dataset, que são imagens .jpg
+    todos os scripts estão na pasta /pyscripts;
+    todos os pesos resultantes do treinamento da rede estão na pasta /weights;
+    toda a base de dados estã em /cats_and_dogs_dataset;
+        /annotations contém os metadados do dataset (arquivos xml);
+        /images/images contém o dataset, que são imagens .jpg;
         /npz contém o dataset compilado no formato .npz, feito pelo código "a_preprocessingDataset.py".
 
 ## algoritmo
