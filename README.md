@@ -5,6 +5,7 @@ Implementação referente ao desafio proposto em "desafio_dl.pdf".
  Aqui no GitHub só será disponibilizado os algoritmos, devido à limitação de espaço. Caso sinta interesse no acesso à base de dados, confira em: https://www.kaggle.com/zippyz/cats-and-dogs-breeds-classification-oxford-dataset
  
  ### Estrutura:
+ `
  |_ binary_classification
     |_ cats_and_dogs_dataset
         |_ annotations
@@ -29,7 +30,7 @@ Implementação referente ao desafio proposto em "desafio_dl.pdf".
         |_ model.h5 (resultante do algoritmo b_trainingModel.py)
         |_ model_last.h5 (melhor otimizado. Usado na avaliação do modelo em c_evaluatingModel.py)
  |_ desafio_dl.pdf
-
+`
  A pasta se divide em duas partes: binary_classification, onde encontram-se os arquivos referentes à classificação binária para gato/cachorro;
  categorical_crossentropy, onde encontram-se os arquivos referentes à classificação categórica de raças (37 ao todo).
 
