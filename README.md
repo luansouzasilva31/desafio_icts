@@ -5,11 +5,12 @@ Implementação referente ao desafio proposto em "desafio_dl.pdf".
  Aqui no GitHub só será disponibilizado os algoritmos, devido à limitação de espaço. Caso sinta interesse no acesso à base de dados, confira em: https://www.kaggle.com/zippyz/cats-and-dogs-breeds-classification-oxford-dataset
  
  ### Estrutura:
+ Caso queira montar a mesma estrutura utilizada nos algoritmos, tudo foi disposto como segue:
  ```
  |_ binary_classification
     |_ cats_and_dogs_dataset
-        |_ annotations
-        |_ images/images
+        |_ annotations (conjunto de arquivos xml)
+        |_ images/images (conjunto das imagens)
         |_ npz (pasta criada pelo algoritmo a_preprocessingDataset.py)
     |_ pyscripts
         |_ a_preprocessingDataset.py
@@ -19,8 +20,8 @@ Implementação referente ao desafio proposto em "desafio_dl.pdf".
         |_ model.h5 (resultante do algoritmo b_trainingModel.py)
  |_ categorical_classification
      |_ cats_and_dogs_dataset
-        |_ annotations
-        |_ images/images
+        |_ annotations (conjunto de arquivos xml)
+        |_ images/images (conjunto das imagens)
         |_ npz (pasta criada pelo algoritmo a_preprocessingDataset.py)
     |_ pyscripts
         |_ a_preprocessingDataset.py
